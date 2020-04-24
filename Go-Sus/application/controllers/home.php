@@ -48,7 +48,6 @@ class home extends MY_Controller {
 					'role'=>$user->role, 
 					'alamat'=>$user->alamat, 
 					'nohp'=>$user->nohp,
-					'nid'=>$user->nid,
 					'id'=>$user->id 
 				);
 

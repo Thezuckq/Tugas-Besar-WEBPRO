@@ -11,10 +11,6 @@ class web extends MY_Controller {
 		
 		$this->render_backend('home');
 	}
-	public function registerdoctor(){
-		
-		$this->render_backend('registerdoctor');
-	}
 	public function suster()
 	{
 		if($this->session->userdata('role') != 'Admin')
