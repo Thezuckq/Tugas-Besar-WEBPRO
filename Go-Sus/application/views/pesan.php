@@ -3,8 +3,9 @@
 <h2 style="margin-top: 0;margin-bottom: 0;text-align: left;">Pesanan</h2>
 
 <hr/>
-<table class="table table-bordered" id="table">
-    <thead>
+<div class="table-flex">
+<table class="table table-con">
+    <thead >
         <tr>
             <th>No</th>
             <th>Nid</th>
@@ -51,6 +52,7 @@
             <?php } ?>
     </tbody>
 </table>
+</div>
 </div>
 </div>
 </div>
