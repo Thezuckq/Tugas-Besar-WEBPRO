@@ -5,7 +5,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Go-Sus</a>
+      <a class="navbar-brand" href="#">
+      <span class="fa-lg">
+        <i class="fas fa-clinic-medical iconcolor-2"></i>
+      </span>
+      Go-Sus</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -13,7 +17,7 @@
          <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">OUR SERVICES
         <span class="caret"></span></a>
-        <ul class="dropdown-menu">
+        <ul class="dropdown-menu" style="border-radius: 4px;">
           <li><a href="<?php echo base_url('web/sus'); ?>">BABY AND MOM CARE</a></li>
           <li><a href="<?php echo base_url('web/sus'); ?>">LANSIA</a></li>
         </ul>
@@ -41,7 +45,7 @@
         <li class="dropdown pull-right">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Hello, <?php echo $this->session->userdata('nama') ?>
         <span class="caret"></span></a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" style="border-radius: 4px;">
                     <li style="color: black;">&nbsp;
   <?php echo $this->session->userdata('role') ?></li>
                     <li><a href="<?php echo base_url('home/logout') ?>"><button type="button" class="btn btn-danger btn-block">Logout</button></a></li>

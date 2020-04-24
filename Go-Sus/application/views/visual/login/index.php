@@ -61,14 +61,16 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #4CAF50;
+  background-color: #64C7CC; 
   color: white;
-  padding: 16px 20px;
+  padding: 16px 32px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 .registerbtn:hover {
