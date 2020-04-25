@@ -5,18 +5,15 @@ if($this->session->flashdata('message')){
 ?>
 <div class="container">
     <br>
-    <div class="pull-right">
-        <a href="<?php echo base_url('web/home/'); ?>">
-            <button type="button" class="btn btn-primary">Home</button>
-        </a>
-    </div>
+
 
     <h2 style="margin-top: 0;margin-bottom: 0; text-align:left;">Ask the Sus</h2>
     <div class="clearfix"></div>
     <br>
-    <table class="table table-bordered" id="table">
-        <thead>
-            <tr>
+    <div class="table-flex">
+    <table class="table table-con">
+        <thead class="th">
+            <tr >
                 <th>No</th>
                 <th>Sus Id</th>
                 <th>Name</th>
@@ -27,9 +24,9 @@ if($this->session->flashdata('message')){
 
             </tr>
         </thead>
-        <tbody>
+        <tbody >
             <?php $no=1; foreach ($data as $d ) {?>
-                <tr>
+                <tr  >
                     <form action="">
                         <td>
                             <?php echo $no++ ?>
@@ -55,6 +52,7 @@ if($this->session->flashdata('message')){
                 <?php } ?>
         </tbody>
     </table>
+    </div>
     </div>
     </div>
 
